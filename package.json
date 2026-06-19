@@ -1,0 +1,20 @@
+{
+  "name": "autosuggest",
+  "version": "1.0.0",
+  "description": "Verifying my Git setup : ]\r Verified my Git setup",
+  "homepage": "https://github.com/SameekshaBadugu/autosuggest#readme",
+  "bugs": {
+    "url": "https://github.com/SameekshaBadugu/autosuggest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameekshaBadugu/autosuggest.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
