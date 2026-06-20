@@ -33,8 +33,11 @@ function showSuggestions(data){
     else{
         var htmlString = "";
         for(var i = 0 ; i <  suggestionsList.length ; i++){
-            htmlString += "<div><span class='suggestion-item'>" + suggestionsList[i].text + "</span><span class='item-weight'>" + suggestionsList[i].weight + "</span></div>";
-        }
+htmlString +=
+"<div class='suggestion-box'>" +
+    "<span class='suggestion-item'>" + suggestionsList[i].text + "</span>" +
+    "<span class='item-weight'>" + suggestionsList[i].weight + "</span>" +
+"</div>";        }
         searchSuggestions.innerHTML = htmlString;
     }
 }
